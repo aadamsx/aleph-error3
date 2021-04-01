@@ -2,8 +2,8 @@ import React from 'react';
 import useStore from '../lib/useStore.ts'
 
 export default function People() {
+  console.log(window.document);
   const people = useStore((state: any) => state.people);
-
   return (
     <div>
       <p>Test</p>
